@@ -1,8 +1,17 @@
 #ship-container {
     background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
-#col-1 {
+#spaceship {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.columns {
     display: flex;
     flex-direction: column;
 }
